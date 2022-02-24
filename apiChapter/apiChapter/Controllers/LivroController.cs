@@ -7,7 +7,7 @@ namespace apiChapter.Controllers;
 [Produces("application/json")]
 
 [ApiController]
-[Route("[controller]")]
+[Route("api/[controller]")]
 public class LivroController : ControllerBase
 {
      private readonly LivroRepository _repository;
